@@ -111,9 +111,10 @@ footer{
 .submenu{
     position: absolute;
     width: 100%;
-    padding-right: 25%;
+    padding-right: 2%;
     padding-top: 2rem;
     padding-bottom: 1rem;
+    margin-right: 2rem;
     top: 4.5rem;
     background-color: rgb(255, 255, 255);
     list-style: none;
@@ -234,6 +235,8 @@ footer{
     flex-direction: row-reverse;
     align-items: center;
 }
+
+
 
 /* ------------ sección de recuadros de información ------------- */
 .info{
@@ -383,13 +386,74 @@ footer{
     margin-top: 3rem;
 }
 
+/* ------------------------------ Recomendaciones ---------------------------*/
+
+.recomendaciones{
+    margin-top: 10rem;
+    width: 90%;
+    margin-left: 2rem;
+}
+
+.recomen{
+    margin-bottom: 4rem;
+    padding-left: 4rem;
+    font-size: 3rem;
+}
+
+.grid__recomendacion{
+    text-align: center;
+}
+.grid__recomendacion .product-image{
+    overflow: hidden;
+}
+.grid__recomendacion .product-image a.image{display: block; }
+.grid__recomendacion .product-image img{
+    width: 320;
+    height: 300px;
+}
+
+.grid__recomendacion .product-content{
+    padding: 2rem;  
+}
+
+.titulo__recomendacion{
+    font-size: 1.8rem;
+}
+
+.precio__reco{
+    font-size: 1.4rem;
+}
 
 
+/* ------------------------------- Página contacto -------------------------------------- */
 
+#contacto__ayuda{
+    margin-top: 8rem;
+    padding-left: 3%;
+}
 
+.contacto__info{
+    margin-top: 5rem;
+    padding: 1rem;
+}
 
+.gap__container{
+    gap: 5rem;
+}
 
+.bgc__container{
+    background-color: rgba(238, 238, 238, 0.324);
+}
 
+#contacto__form{
+    margin-top: 6rem;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.txt__label{
+    font-size: 1.4rem;
+}
 
 
 /*  -------------------------------  Media Queries 1024 -----------------------------------  */
