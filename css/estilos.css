@@ -87,7 +87,7 @@ footer{
 .organizacion a::after{
     content: "";
     position: absolute;
-    width: 80%;
+    width: 99%;
     height: 7px;
     bottom: 0;
     left: 0;
@@ -419,12 +419,14 @@ footer{
 
 #envios__h4{
     margin-top: 8rem;
+    margin-bottom: 4rem;
     padding-left: 3%;
 }
 
+
 /* ------------------------------- Página contacto -------------------------------------- */
 
-#contacto__ayuda{
+.contacto__ayuda{
     margin-top: 8rem;
     padding-left: 3%;
 }
@@ -1197,6 +1199,3 @@ footer{
     font-size: 1.1rem;
 }
 }
-    
-    
-    
