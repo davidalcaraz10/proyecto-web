@@ -51,7 +51,6 @@ h4{
 }
 
 .header{
-    position: sticky;
     top: .1px;
     background-color: rgb(255, 255, 255);
 }
@@ -120,7 +119,12 @@ footer{
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;     
+}
+
+.submenu a:hover{
+    transform: scale(1.2, 1.2);
+    transform-origin: bottom left;
 }
 
 .gafas-sol{
@@ -147,7 +151,7 @@ footer{
 .hero__section{
     width: 100%;
     padding: 7rem;
-    margin-top: 5rem;
+    margin-top: 17rem;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -156,6 +160,33 @@ footer{
 .heroimagen__izquierda{
     padding-left: 5rem;
 }
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
 
 /* --------  primer texto de rebajas -------- */
 .titulo__derecha{
@@ -184,6 +215,11 @@ footer{
     border-width: 1.1px;
     border-radius: .4rem;
     background-color: transparent;
+    font-size: 1.4rem;
+}
+
+.boton__derecha a:hover{
+    color: #8a8686;
 }
 
 /* -------- sección de hombre -------- */
@@ -213,7 +249,7 @@ footer{
 }
 
 .boton__izquierda{ 
-    width: 8rem;
+    width: 10rem;
     height: 4rem;
     margin-left: 41%;
     border-style: solid;
@@ -221,6 +257,11 @@ footer{
     border-width: 1.1px;
     border-radius: .4rem;
     background-color: transparent;
+    font-size: 1.5rem;
+}
+
+.boton__izquierda a:hover{
+    color: #8a8686;
 }
 
 .heroimagen__derecha{
@@ -246,26 +287,32 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-left: 8%;
+    padding-left: 6%;
 }
+
+.info :hover{
+    background-color: rgba(198, 198, 198, 0.249);
+}
+
 
 .pedido{
     border-style: ridge;
     border-color: rgba(218, 216, 216, 0.324);
     width: 50rem;
     height: 12rem;
-    display: inline-block;
+}
+
+.pedido :hover{
+    background-color: transparent;
 }
 
 .pedido__texto{
-    display: block;
     position: relative;
     top: 2rem;
     left: 1.2rem;
 }
 
 .pedido__icono{
-    display: block;
     position: relative;
     top: .8rem;
     left: 1rem;
@@ -276,18 +323,19 @@ footer{
     border-color: rgba(218, 216, 216, 0.324);
     width: 50rem;
     height: 12rem;
-    display: inline-block;
+}
+
+.contacto :hover{
+    background-color: transparent;
 }
 
 .contacto__texto{
-    display: block;
     position: relative;
     top: 2rem;
     left: 1.2rem;
 }
 
 .contacto__icono{
-    display: block;
     position: relative;
     top: .8rem;
     left: 1rem;
@@ -357,7 +405,7 @@ footer{
 
 /*    sección bolsas*/
 .frase__categoria{
-    margin-top: 10rem;
+    margin-top: 20rem;
     text-align: center;
 }
 
@@ -407,6 +455,9 @@ footer{
     margin: 5rem;
     border: none;
 }
+    .corousel__h{
+        height: 25vh;
+    }
     .carousel-control-prev, .carousel-control-next{
     background-color: #8a8686;
     width: 5vh;
@@ -414,6 +465,12 @@ footer{
     border-radius: 50%;
     top: 50%;
 }
+
+    .suscribir__boton:hover{
+        opacity: .7;
+    }
+
+
 
 /* ------------------------------ Página envíos ----------------------------------------- */
 
@@ -533,7 +590,7 @@ footer{
         
 /* --------- seccion info ------- */
     .info{
-    padding-left: 4rem;
+    padding-left: 3rem;
     gap: 3rem;
 }
     .pedido{
@@ -575,7 +632,7 @@ footer{
 }
 
     .hero__section{
-    margin-top: 7rem;
+    margin-top: 19rem;
     padding-top: 1rem;
     gap: 2rem;
 }
@@ -725,7 +782,7 @@ footer{
     .hero__section{
     flex-direction: column;
     padding-bottom: 3rem;
-    margin-top: 4.5rem;
+    margin-top: 18rem;
     padding-top: 1rem;
     padding-right: 2rem;
 }
@@ -891,7 +948,7 @@ footer{
     }
     .hero__section{
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 15rem;
 }
     .titulo__derecha{
     margin-left: 2rem;
@@ -1043,7 +1100,7 @@ footer{
     .hero__section{
     flex-direction: column;
     padding-right: 6rem;
-    margin-top: 6rem;
+    margin-top: 16rem;
 }
     .titulo__derecha{
     width: 31rem;
@@ -1146,24 +1203,24 @@ footer{
     padding-left: 1rem;
     margin-top: 4rem;
     margin-right: .9rem;
-    gap: 1.7rem;
+    gap: 3rem;
 }
     .pedido{
     width: 100%;
-    height: 10.7rem;
+    height: 12rem;
     }
     .pedido__texto{
-    left: 1rem;
+    left: .5rem;
     }
     .info p{
-    font-size: 1.24rem;
+    font-size: 1.2rem;
     }
     .contacto{
     width: 100%;
     height: 10.4rem;
     }
     .contacto__texto{
-    left: 1rem;
+    left: .5rem;
     }
     /* ------------- parte final de index ----------------- */
     .final{
