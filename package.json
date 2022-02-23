@@ -1,0 +1,23 @@
+{
+  "name": "3proyectoweb",
+  "version": "1.0.0",
+  "description": "SASS proyecto web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidalcaraz10/proyecto-web.git"
+  },
+  "author": "David Alcaraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidalcaraz10/proyecto-web/issues"
+  },
+  "homepage": "https://github.com/davidalcaraz10/proyecto-web#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
