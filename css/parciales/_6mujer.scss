@@ -1,0 +1,56 @@
+.boton__blanco{
+    border: none;
+    width: 20rem;
+    height: 13rem;
+    font-size: 7rem;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    display: flex;
+}
+
+.bolsa__relative{
+    position: relativ;
+}
+
+.boton__absolute{
+    position: absolute;
+    top: 33%;
+    right: 33%;
+}
+
+.imagen__joyeria__acomodo{
+    width: 100%;
+    padding-left: 9.6rem;
+}
+
+/*    sección bolsas*/
+.frase__categoria{
+    margin-top: 24rem;
+    text-align: center;
+}
+
+.frase__categoria__p{
+    width: 50%;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 1rem;
+}
+
+.grid__productos{
+    background-color: rgba(218, 218, 218, 0.242);
+    margin-top: 7rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10rem;
+    padding-left: 6%;
+    padding-bottom: 1%;
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid__imagen{
+    margin-top: 3rem;
+}

@@ -1,0 +1,35 @@
+/* ------------------------------ Recomendaciones ---------------------------*/
+
+.reco__h4{
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+@media (min-width: 768px) {
+    .carousel-inner {
+      display: flex;
+    }
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 30%;
+      display: inline-block;
+    }
+  }
+
+    .card{
+    margin: 5rem;
+    border: none;
+}
+    .corousel__h{
+        height: 25vh;
+    }
+    .carousel-control-prev, .carousel-control-next{
+    background-color: #8a8686;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+}
+
+    .suscribir__boton:hover{
+        opacity: .7;
+    }

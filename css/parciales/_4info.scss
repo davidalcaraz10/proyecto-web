@@ -1,0 +1,60 @@
+/* ------------ sección de recuadros de información ------------- */
+.info{
+    background-color: darkslatebue;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 6%;
+}
+
+.info :hover{
+    background-color: rgba(198, 198, 198, 0.249);
+}
+
+
+.pedido{
+    border-style: ridge;
+    border-color: rgba(218, 216, 216, 0.324);
+    width: 50rem;
+    height: 12rem;
+}
+
+.pedido :hover{
+    background-color: transparent;
+}
+
+.pedido__texto{
+    position: relative;
+    top: 2rem;
+    left: 1.2rem;
+}
+
+.pedido__icono{
+    position: relative;
+    top: .8rem;
+    left: 1rem;
+}
+
+.contacto{
+    border-style: ridge;
+    border-color: rgba(218, 216, 216, 0.324);
+    width: 50rem;
+    height: 12rem;
+}
+
+.contacto :hover{
+    background-color: transparent;
+}
+
+.contacto__texto{
+    position: relative;
+    top: 2rem;
+    left: 1.2rem;
+}
+
+.contacto__icono{
+    position: relative;
+    top: .8rem;
+    left: 1rem;
+}

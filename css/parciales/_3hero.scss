@@ -1,0 +1,128 @@
+/* --------------------- hero section ---------------------- */
+.hero__section{
+    width: 100%;
+    padding: 7rem;
+    margin-top: 17rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+    .heroimagen__izquierda{
+        padding-left: 5rem;
+    }
+    
+    .scale-up-center {
+        -webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+    
+     @-webkit-keyframes scale-up-center {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }
+      @keyframes scale-up-center {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }
+}
+
+    /* --------  primer texto de rebajas -------- */
+.titulo__derecha{
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 3rem;
+}
+
+.texto__derecha{
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    margin-left: 3.7rem;
+}
+
+.boton__derecha{
+    width: 8rem;
+    height: 4rem;
+    margin-left: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.1px;
+    border-radius: .4rem;
+    background-color: transparent;
+    font-size: 1.4rem;
+        
+    a:hover{
+        color: #8a8686;
+    }   
+}
+
+/* -------- sección de hombre -------- */
+.hero__dos{
+    width: 100%;
+    padding: 7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo__izquierda{
+    text-align: center;
+    padding-right: 12rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+
+.texto__izquierda{
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 12rem;
+}
+
+.boton__izquierda{ 
+    width: 10rem;
+    height: 4rem;
+    margin-left: 41%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.1px;
+    border-radius: .4rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+.boton__izquierda a:hover{
+    color: #8a8686;
+}
+
+.heroimagen__derecha{
+    margin-right: rem;
+}
+
+/* ---------- sección de mujer ----------- */
+.mujer{
+    width: 100%;
+    padding: 7rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}

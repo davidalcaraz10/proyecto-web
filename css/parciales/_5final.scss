@@ -1,0 +1,30 @@
+.final{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 45vh;
+    padding: 2.5rem;
+    margin-top: 7rem;
+}
+
+.final p{
+    font-size: 1.8rem;
+    color: rgb(232, 228, 228);
+}
+
+.final span{
+    font-size: 1.7rem;
+    color: rgb(232, 228, 228);
+}
+
+.iconos{
+    width: 4.5rem;
+    margin-top: 2rem;
+}
+
+#mapa__tienda{
+    margin-top: 1.5rem;
+    width: 23rem;
+    height: 14rem;
+}
