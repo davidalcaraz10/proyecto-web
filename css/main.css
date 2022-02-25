@@ -344,7 +344,7 @@ footer {
 
 .pedido {
   border-style: ridge;
-  border-color: rgba(218, 216, 216, 0.324);
+  border-color: #8a8686;
   width: 50rem;
   height: 12rem;
 }
@@ -367,7 +367,7 @@ footer {
 
 .contacto {
   border-style: ridge;
-  border-color: rgba(218, 216, 216, 0.324);
+  border-color: #8a8686;
   width: 50rem;
   height: 12rem;
 }
@@ -483,7 +483,7 @@ footer {
       grid-template-columns: 1fr 1fr 1fr;
 }
 
-.grid__imagen {
+.grid__productos .grid__imagen {
   margin-top: 3rem;
 }
 
@@ -559,6 +559,11 @@ footer {
   margin-top: 6rem;
   padding-left: 3%;
   padding-right: 3%;
+}
+
+.table {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .txt__label {
@@ -985,6 +990,10 @@ footer {
   }
 }
 
+.carousel-item {
+  padding-left: 6rem;
+}
+
 /*  -------------------------------  Media Queries 375 -----------------------------------  */
 @media screen and (max-width: 375px) {
   .organizacion {
@@ -1148,6 +1157,10 @@ footer {
   .grid__texto p {
     font-size: 1.2rem;
   }
+}
+
+.carousel-item {
+  padding-left: 3.5rem;
 }
 
 /*  -------------------------------  Media Queries 320 ----------------------------------  */
@@ -1332,6 +1345,9 @@ footer {
   }
   .grid__texto p {
     font-size: 1.1rem;
+  }
+  .carousel-item {
+    padding-left: .5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

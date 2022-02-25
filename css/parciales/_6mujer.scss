@@ -28,15 +28,15 @@
 .frase__categoria{
     margin-top: 24rem;
     text-align: center;
+    &__p{
+        width: 50%;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 1rem;
+    }
 }
 
-.frase__categoria__p{
-    width: 50%;
-    font-size: 1.2rem;
-    text-align: center;
-    margin-left: 25%;
-    margin-top: 1rem;
-}
 
 .grid__productos{
     background-color: rgba(218, 218, 218, 0.242);
@@ -49,8 +49,7 @@
     display: grid;
     grid-row-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-.grid__imagen{
-    margin-top: 3rem;
+    .grid__imagen{
+        margin-top: 3rem;
+    }
 }
