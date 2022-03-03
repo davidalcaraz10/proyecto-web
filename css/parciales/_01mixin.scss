@@ -1,0 +1,30 @@
+/* ------------------------- hero section ------------------------- */
+@mixin hero ($reverso) {
+    width: 100%;
+    padding: 7rem;
+    display: flex;
+    flex-direction: $reverso;
+    align-items: center;
+}
+
+@mixin textos ($parriba, $pabajo, $pizquierda, $pderecha) {
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: $parriba;
+    padding-bottom: $pabajo;
+    padding-left: $pizquierda;
+    padding-right: $pderecha;
+}
+
+@mixin boton ($ancho, $ml, $fz) {
+    width: $ancho;
+    margin-left: $ml;
+    font-size: $fz;
+    height: 4rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.1px;
+    border-radius: .4rem;
+    background-color: transparent;
+}

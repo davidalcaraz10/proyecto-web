@@ -1,12 +1,10 @@
+@import "./01mixin";
+
 /* --------------------- hero section ---------------------- */
 .hero__section{
-    width: 100%;
-    padding: 7rem;
-    margin-top: 17rem;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    
+    @include hero(row-reverse);
+    margin-top: 17rem; 
+   
     .heroimagen__izquierda{
         padding-left: 5rem;
     }
@@ -39,46 +37,27 @@
 }
 /* --------  primer texto de rebajas -------- */
 .titulo__derecha{
-text-align: center;
-padding-left: 5rem;
-padding-right: 3rem;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 3rem;
 }
 
 .texto__derecha{
-font-size: 2.5rem;
-font-family: 'Open Sans', sans-serif;
-text-align: center;
-padding-top: 4rem;
-padding-bottom: 2rem;
-padding-left: 5rem;
-padding-right: 3rem;
-margin-left: 3.7rem;
+    @include textos(4rem, 2rem, 5rem, 3rem);
+    margin-left: 3.7rem;
 }
 
 .boton__derecha{
-width: 8rem;
-height: 4rem;
-margin-left: 50%;
-border-style: solid;
-border-color: black;
-border-width: 1.1px;
-border-radius: .4rem;
-background-color: transparent;
-font-size: 1.4rem;
-    
-a:hover{
-    color: $gris-fondo;
-}   
-}
+    @include boton(8rem, 50%, 1.4rem);
 
+    a:hover{
+    color: $gris-fondo;
+    }   
+}
 
 /* -------- sección de hombre -------- */
 .hero__dos{
-    width: 100%;
-    padding: 7rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include hero(row);
 }
 .titulo__izquierda{
     text-align: center;
@@ -88,25 +67,11 @@ a:hover{
 }
 
 .texto__izquierda{
-    font-size: 2.5rem;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-    padding-left: 5rem;
-    padding-right: 12rem;
+    @include textos(4rem, 3rem , 5rem, 12rem)
 }
 
 .boton__izquierda{ 
-    width: 10rem;
-    height: 4rem;
-    margin-left: 41%;
-    border-style: solid;
-    border-color: black;
-    border-width: 1.1px;
-    border-radius: .4rem;
-    background-color: transparent;
-    font-size: 1.5rem;
+    @include boton(10rem, 41%, 1.5rem)
 }
 
 .boton__izquierda a:hover{
