@@ -1,9 +1,10 @@
 /* ------------------------- hero section ------------------------- */
-@mixin hero ($reverso) {
+@mixin hero ($reverso, $jc) {
     width: 100%;
     padding: 7rem;
     display: flex;
     flex-direction: $reverso;
+    justify-content: $jc;
     align-items: center;
 }
 

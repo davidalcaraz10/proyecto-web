@@ -1,11 +1,15 @@
 @import "./01mixin";
 
 /* --------------------- hero section ---------------------- */
-.hero__section{
+.hero__section2{
     @include hero(row-reverse, center);
-    margin-top: 15rem; 
-   
-    .heroimagen__izquierda{
+    margin-top: 19rem; 
+    
+    .hero__rebaja{
+        width: 52%;
+    }
+
+    .heroimagen__izquierda2{
         padding-left: 1rem;
 
         img{
@@ -41,19 +45,20 @@
       }
 }
 /* --------  primer texto de rebajas -------- */
-.titulo__derecha{
+
+
+.titulo__derecha2{
     text-align: center;
-    padding-left: 7rem;
-    padding-right: 1rem;
+    padding-left: 2rem
 }
 
-.texto__derecha{
-    @include textos(4rem, 2rem, 5rem, 3rem);
+.texto__derecha2{
+    @include textos(4rem, 2rem, 3rem, 2rem);
     margin-left: 4rem;
 }
 
-.boton__derecha{
-    @include boton(8rem, 50%, 1.4rem);
+.boton__derecha2{
+    @include boton(8rem, 48%, 1.4rem);
 
     a:hover{
     color: $gris-fondo;
@@ -61,55 +66,40 @@
 }
 
 /* -------- sección de hombre -------- */
-.hero__dos{
+.hero__dos2{
     @include hero(row, space-around);
 }
 
-.hombre__derecha__texto{
-    width: 50%;
-    justify-content: center;
-    align-items: center;
+.titulo__izquierda2{
+    text-align: center;
+    width: 60%;
 }
 
-.texto__izquierda{
-    @include textos(4rem, 3rem , 0rem, 5rem)
+.heroimagen__derecha2 img{
+    width: 100%;
+    height: 75vh;
 }
 
-.boton__izquierda{ 
-    @include boton(10rem, 41%, 1.5rem)
-}
-
-.boton__izquierda a:hover{
-    color: $gris-fondo;
-}
-
-.heroimagen__derecha img{
-    width: 115%;
-    height: 70vh;
-}
-
-
-/* ---------- sección de mujer ----------- */
-.mujer{
+.sec__imagenes{
     padding: 7rem;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    &__derecha{
-        width:100%;
-    }
-
-    .titulo__derecha{
-        padding-left: 2rem;
-    }
-    .texto__derecha{
-        padding-left: 2.5rem;
-    }
-    .boton__derecha{
-        margin-left: 34rem;
-    }
-
-    .heroimagen__izquierda img{
+    flex-direction: row;
+    height: 87vh;
+    
+    .sec__izq{
+        width: 100%;
+        img{
         width: 90%;
+        height: 100%;
+        }
     }
+    .sec__der{
+        width: 90%;
+        padding-left: 8rem;
+        img{
+        width: 100%;
+        height: 100%;
+        }
+    }
+    
 }
